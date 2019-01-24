@@ -1,7 +1,8 @@
+package sample;
 import java.sql.*;
 
 public class Andmebaas {
-    Connection conn = null;
+    Connection conn = null; //iga meetod mis midagi teeb, hoiab conni avatud?
 
     // Constructor, ehk meetod mis käivitub kohe objekti välja kutsumisel
     public Andmebaas() {

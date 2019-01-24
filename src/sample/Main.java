@@ -22,6 +22,9 @@ public class Main extends Application {
     static int koguSumma = 0;
     static Label summaLabel = new Label();
 
+
+    //järgnev kood peaks tegelt olema eraldi klassis:
+
     @Override
     public void start(Stage stage) throws Exception{
         VBox vbox = new VBox();
